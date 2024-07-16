@@ -211,3 +211,14 @@ header {
   }
 }
 
+@media (min-width: 761px) and (max-width: 1024px)  {
+  .navbar li {
+    width: 100%;
+  }
+
+  .article {
+    width: 46%;
+    margin-bottom: 40px;
+  }
+
+}
