@@ -76,6 +76,10 @@ header {
   border-bottom: 1px solid white;
 }
 
+.menu-icon{
+  display: none;
+}
+
 .navbar {
   list-style-type: none;
   width: 100%;
@@ -221,4 +225,18 @@ header {
     margin-bottom: 40px;
   }
 
+}
+
+@media (max-width: 480px) {
+  .newspaper-name {
+    border-bottom: none;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+
+  .navbar{
+    display: none;
+  }
 }
